@@ -24,7 +24,8 @@ This mini-project was created to address the inconvenience of PuTTY not providin
 1. **Clone/Download:** Clone this repository or download the files to your local machine.
 
 2. **Execute:** Double-click `TLM Launcher.bat`, follow the instructions and start the monitoring process:
-    - You will be prompted to enter the directory where the shourcut to PuTTY's stored session and its associated log file are located.
+    - You will be prompted to enter the directory where the shourcut to PuTTY's stored session and its associated log file are located. 
+    This shortcut is just a (.lnk) file with its location/target set to `C:\Program Files\PuTTY\putty.exe" -load <saved_session_name>`
    - The timestamped log file (`ts_log.txt`) will be created in the same directory.
 
 4. **Exit:** Press `Ctrl+C` in the console window to stop monitoring. The application will be terminated gracefully, taking care to terminate the associated PuTTY process.
